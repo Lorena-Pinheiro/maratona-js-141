@@ -4,10 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Maratona 141 JS</title>
 </head>
 
 <body>
+    <section id="parte1">
+        <div>
+            <p>Digite dois números para saber sua soma</p>
+            1° número: <input type="number" id="n1"><br>
+            2° número: <input type="number" id="n2"><br>
+            <button onclick="soma()">Somar</button>
+            <p id="resultado"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            Digite um  número para saber se é impar ou par: <input type="number" id="parImpar"><br>
+            <button onclick="parImpar()">Submit</button>
+            <p id="resultado2"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            <p>Contagem de 1 a 10</p>
+            <button onclick="contagemFor()">FOR</button>
+            <p id="resultadoFor"></p>
+            <button onclick="contagemWhile()">WHILE</button>
+            <p id="resultadoWhile"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            Digite um  número para saber sua tabuada: <input type="number" id="tabuada"><br>
+            <button onclick="tabuada()">Submit</button>
+            <p id="resultadoTabuada"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            <p>Maior número entre [3, 7, 2, 9, 5]</p>
+            <button onclick="maiorNumero()">Ver</button>
+            <p id="resultadoMaiorNumero"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            Digite uma palavra:<input type="text" id="palavra"><br>
+            <button onclick="inverterPalavra()">Inverter</button>
+            <p id="resultadoInverterPalavra"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            <p>Soma de Elementos de um Array[1, 2, 3, 4, 5]</p>
+            <button onclick="somaArray()">Ver</button>
+            <p id="resultadoSomaArray"></p>
+        </div>
+    </section>
+    <section>
+        <div>
+            Digite um  número para saber se é primo ou não: <input type="number" id="primo"><br>
+            <button onclick="primo()">Submit</button>
+            <p id="resultadoPrimo"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            Digite um  número para saber seu fatorial: <input type="number" id="fatorial"><br>
+            <button onclick="fatorial()">Submit</button>
+            <p id="resultadoFatorial"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            Digite uma palavra para saber se é um Palíndromo:<input type="text" id="palidromo"><br>
+            <button onclick="palidromo()">Verificar</button>
+            <p id="resultadoPalidromo"></p>
+        </div>
+        <br>
+        <br>
+        <div>
+            Digite uma palavra para saber quantas vogais ela tem:<input type="text" id="vogal"><br>
+            <button onclick="vogal()">Inverter</button>
+            <p id="resultadoVogal"></p>
+        </div>
+        <br>
+        <br>
+    </section>
+    
+
+
+    
     <script src="./script.js"></script>
 </body>
 
